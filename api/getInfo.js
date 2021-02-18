@@ -7,6 +7,7 @@ module.exports = async (req, res) => {
             name: Mock.mock(() => Random.cname()), phone: 13636065890, auth: Mock.mock({
                 "boolean|1": true
             }).boolean
+            // name: Mock.mock(() => Random.cname()), phone: 13636065890, auth: true
         },
         code: 200,
     })

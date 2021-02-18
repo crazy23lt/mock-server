@@ -7,4 +7,5 @@ route.get("/loginout", require("../api/loginOut"));
 route.get("/getinfo", require("../api/getInfo"));
 route.get("/doorkey", require("../api/doorKey"));
 route.get("/getcode", require("../api/getAuthCode"));
+route.get("/getrepotphone", require("../api/getRepotPhone"));
 module.exports = route;
